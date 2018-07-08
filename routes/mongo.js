@@ -4,7 +4,9 @@ const mongoose = require('mongoose');
 
 router.use(express.json());
 
-mongoose.connect('mongodb://localhost/nodejs')
+const db_ip = '192.168.0.102';
+
+mongoose.connect('mongodb://' + db_ip +'/nodejs')
     .then(() => console.log('Connected to MongoDB!'))
     .catch((err) => console.log('Error',err));
 
