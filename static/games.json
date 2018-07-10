@@ -1,0 +1,26 @@
+{
+	"_id": "5b4226eedb5584d401429472",
+	"name": "English Premier League 2010/11",
+	"rounds": [
+		{
+			"name": "Round 1",
+			"matches": [
+				{
+					"date": "2010-08-16",
+					"team1": {
+						"key": "manutd",
+						"name": "Manchester United",
+						"code": "MUN"
+					},
+					"team2": {
+						"key": "newcastle",
+						"name": "Newcastle United",
+						"code": "NEW"
+					},
+					"score1": 3,
+					"score2": 0
+				}
+			]
+		}
+	]
+}
